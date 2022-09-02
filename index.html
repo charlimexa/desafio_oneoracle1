@@ -5,13 +5,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Document</title>
+  <title>Programa de encriptación</title>
   <link rel="shortcut icon" href="include/imagenes/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="include/css/style.css">
-  <script src="include/js/scripts.js"></script>
 </head>
 <body>
     
-    
+  <header>
+    <a href=""><img src="include/imagenes/logo.png" alt="Logotipo"></a>
+  </header>
+
+  <main>
+    <section class="conttext">
+        <textarea class="textinic" id="texre" placeholder="Ingresa el texto aquí"></textarea>
+        <p class="coteinfo"><img src="include/imagenes/info.png" alt="Información"> Solo letras minúsculas y sin acentos</p> 
+        <input type="button" id="bot-encti" class="boton-azul" value="Encriptar"> &nbsp; &nbsp; <input type="button" id="bot-desen" class="boton-claro" value="Desencriptar">
+    </section>
+
+    <section class="informacion">
+      <div id="men-inicio">
+        <div class="conavatar"><img src="include/imagenes/abatar.png" class="contabatar" alt="abatar"></div>
+        <h1>Ningún mensaje fue encontrado</h1>
+        <p class="mensaje-inicio">Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+      <div class="mensaje-inicio">
+        <!-- resultados -->
+        <textarea id="men-result" class="textresu"></textarea>
+        <input type="button" id="bot-copia" class="boton-copea" value="Copiar">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy;2022 Copyright | Charli Campos Rodríguez
+  </footer>
+
+  <!-- cargar javascripts -->
+  <script src="include/js/scripts.js"></script>
+
 </body>
 </html>
