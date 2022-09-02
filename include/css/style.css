@@ -1,1 +1,168 @@
 /* estilos */
+
+/* fuente */
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* principales */
+html{
+  font-size: 100%;
+}
+
+body{
+  background-color: #E5E5E5;
+  margin: 0;
+}
+
+/* contenedores */
+header{
+  margin: 1.5em 1em;
+}
+
+main{
+    margin: 1em 1em;
+}
+
+/* formulario */
+.conttext{
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.textinic{
+  border: none;
+  width: 100%;
+  height: 5em;
+  background-color: #E5E5E5;
+  font-size: 2em;
+  color: #0a3871;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.coteinfo{
+  text-align: left;
+}
+
+.boton-azul{
+  width: 100%;
+  border: 1px solid #0A3871;
+  border-radius: 1.5em;
+  background-color: #0A3871;
+  font-size: 1rem;
+  color: #ffffff;
+  padding: 1.5rem;
+}
+
+.boton-claro{
+  width: 100%;
+  border: 1px solid #0A3871;
+  border-radius: 1.5em;
+  background-color: #E5E5E5;
+  font-size: 1rem;
+  color: #0A3871;
+  padding: 1.5rem;
+  margin: 0.63em 0;
+}
+
+.boton-copea{
+  width: 100%;
+  border: 1px solid #0A3871;
+  border-radius: 1.5em;
+  background-color: #E5E5E5;
+  font-size: 1rem;
+  color: #0A3871;
+  padding: 1.5rem;
+  margin: 0.63em 0;
+  display: none;
+}
+
+/* resultado */
+.informacion{
+  width: 100%;
+  border-radius: 2em;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 1em 0;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 1.5em;
+}
+
+.conavatar{
+  text-align: center;
+  display: none;
+}
+
+.mensaje-inicio{
+  text-align: center;
+}
+
+.contdico{
+  text-align: right;
+}
+
+.textresu{
+  border: 0px solid #fff;
+  width: 100%;
+  font-size: 2rem;
+  color: #495057;
+  display: none;
+}
+
+/* pie de pagina */
+footer{
+  margin: 1em 0;
+  text-align: center;
+  font-size: 0.75em;
+}
+
+
+/* responsivo */
+
+@media screen and (max-width:1000px) {
+  .contabatar{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:940px){
+  .conttext{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 2em 0 0em;
+  }
+
+  .textinic{
+    height: 17em;
+  }
+
+  .boton-azul, .boton-claro{
+    width: 40%;
+    display: inline-block;
+  }
+
+  .informacion{
+    width: 39%;
+    height: 37em;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .conavatar{
+    display: block;
+  }
+
+  .textresu{
+    height: 14em;
+  }
+
+  footer{
+    margin: 3em 0 0 0;
+  }
+}
